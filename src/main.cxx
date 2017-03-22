@@ -590,7 +590,7 @@ int main(int argc, char *argv[])
             break;
         }
         sleep(libretrysecs);
-        libretrysecs = MIN(2*libretrysecs, 120);
+        //libretrysecs = MIN(2*libretrysecs, 120);
     }
 
     if (!mylib->ok()) {
